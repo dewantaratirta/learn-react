@@ -1,0 +1,10 @@
+.tablist {
+  background-color: transparent !important;
+  > button {
+    // background-color: red;
+    // color: #000;
+  }
+  > button[data-state='active'] {
+    @apply bg-gray-900;
+  }
+}
